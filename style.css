@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #172554);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centered Container with Glass Effect */
+.container {
+    background: rgba(30, 30, 30, 0.8);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 0 35px rgba(0, 255, 255, 1);
+    transform: scale(1.02);
+}
+
+/* Centered Form Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Centering Input Fields */
+input {
+    width: 90%;  /* Slightly smaller than full width for better spacing */
+    max-width: 320px; /* Ensures it doesn't stretch too much */
+    padding: 12px;
+    margin: 8px auto; /* Centers the input fields */
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+
+/* Improve Dropdown Styling */
+select {
+    width: 90%;
+    max-width: 320px;
+    padding: 12px;
+    margin: 8px auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Ensure Form Buttons Are Centered */
+button {
+    width: 95%;
+    max-width: 320px;
+    margin-top: 12px;
+}
+
+
+input:focus {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+}
+
+/* AI Neon Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(90deg, #00bfff, #00ffaa);
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00ffaa, #00bfff);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 1);
+    transform: translateY(-2px);
+}
+
+/* Register Link */ 
+a {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+a {
+    color: #00ffaa;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.8);
+}
+
+/* For better dropdown styling */
+select {
+    width: 100%; /* Match text field width */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #222; /* Dark theme */
+    color: white;
+}
+
+/* Center text fields */
+input, select {
+    display: block;
+    margin: 10px auto; /* Center alignment */
+    text-align: center;
+}
+
+/* Space between buttons */
+button {
+    margin-top: 15px; /* Add more gap */
+}
